@@ -112,7 +112,7 @@ a:hover, a:focus, a:active {
   color: #824027; 
 }
 .fixed-top{
-  position: absolute;
+  position: fixed;
 }
 
 
