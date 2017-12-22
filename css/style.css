@@ -133,3 +133,8 @@ p.mb-5.aboutcontent {
   margin-left: 5px;
 }
 
+img.img-fluid.img-profile.rounded-circle.profilepicsmall {
+  width: 40px;
+  margin-bottom: 3px;
+}
+
