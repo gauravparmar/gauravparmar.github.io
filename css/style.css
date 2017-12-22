@@ -128,4 +128,8 @@ section p, section li{
 p.mb-5.aboutcontent {
   margin-bottom: 0rem !important;
 }
+.downloadicon {
+  font-size: 20px;
+  margin-left: 5px;
+}
 
