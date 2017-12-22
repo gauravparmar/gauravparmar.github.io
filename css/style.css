@@ -112,9 +112,9 @@ a {
 a:hover, a:focus, a:active {
   color: #824027; 
 }
-.fixed-top{
+/*.fixed-top{
   position: absolute;
-}
+}*/
 
 .mr-auto, .mx-auto {
   margin-right: inherit;
