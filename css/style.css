@@ -116,9 +116,16 @@ a:hover, a:focus, a:active {
   position: absolute;
 }*/
 
-.mr-auto, .mx-auto {
+.mr-auto{
   margin-right: unset !important;
 }
-
-
+.text-md-right{
+  margin-left: auto;
+}
+section p, section li{
+  text-align: justify;
+}
+p.mb-5.aboutcontent {
+  margin-bottom: 0rem !important;
+}
 
