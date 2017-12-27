@@ -33,6 +33,16 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41785348-2"></script>
     <script>
@@ -43,7 +53,7 @@
       gtag('config', 'UA-41785348-2');
     </script>
 
-
+    
 
 
   </head>
@@ -128,38 +138,37 @@
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
-              <i class="devicons devicons-php" title="PHP"  data-toggle="tooltip" 
-  data-placement="top" data-trigger="click"></i>
+              <i class="devicons devicons-php" title="PHP" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-mysql" title="MySQL"></i>
+              <i class="devicons devicons-mysql" title="MySQL" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-drupal" title="Drupal"></i>
+              <i class="devicons devicons-drupal" title="Drupal" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-wordpress" title="WordPress"></i>
+              <i class="devicons devicons-wordpress" title="WordPress" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-html5" title="HTML5"></i>
+              <i class="devicons devicons-html5" title="HTML5" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-css3" title="CSS3"></i>
+              <i class="devicons devicons-css3" title="CSS3" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-javascript" title="JavaScript"></i>
+              <i class="devicons devicons-javascript" title="JavaScript" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-jquery" title="jQuery"></i>
+              <i class="devicons devicons-jquery" title="jQuery" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap" title="Bootstrap"></i>
+              <i class="devicons devicons-bootstrap" title="Bootstrap" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-photoshop" title="Photoshop"></i>
+              <i class="devicons devicons-photoshop" title="Photoshop" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-git" title="Git"></i>
+              <i class="devicons devicons-git" title="Git" data-toggle="tooltip" data-placement="top"  id="tooltip"></i>
             </li>
           </ul>
 
@@ -506,15 +515,11 @@
 
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      })
+    </script>
 
   </body>
 
