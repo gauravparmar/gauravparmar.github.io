@@ -517,23 +517,25 @@
 
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/custom.min.js"></script>
-
-    <script type="text/javascript">
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-      })
+    <!-- Javascript Loading -->
+    <script>
+      [
+        //Bootstrap core JavaScript
+        'vendor/jquery/jquery.min.js',
+        'vendor/bootstrap/js/bootstrap.bundle.min.js',
+        
+        // Plugin JavaScript
+        'vendor/jquery-easing/jquery.easing.min.js',
+        
+        // Custom scripts
+        'js/custom.js'
+      ].forEach(function(src) {
+        var script = document.createElement('script');
+        script.src = src;
+        script.async = false;
+        document.head.appendChild(script);
+      });
     </script>
-    
 
   </body>
-
 </html>
