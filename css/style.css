@@ -44,7 +44,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-	color: #0f3804;
+	color: #094668;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-	color: #0f3804;
+	color: #094668;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -142,11 +142,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-	color: #0f3804 !important;
+	color: #094668 !important;
 }
 
 a {
-	color: #0f3804;
+	color: #094668;
 	word-wrap: break-word;
 }
 
